@@ -1,15 +1,9 @@
-# Polywrap Wasm Wrapper Template
-A simple starter template for an AssemblyScript Wasm wrapper. For more information on how this project works, and a step by step on how to extend its behavior, see the documentation [here](https://docs.polywrap.io/).
+# Web3 Goals Wrapper (Polywrap Wrapper)
 
-# How To Run
+## Commands
 
-## Install Dependencies
-`nvm install && nvm use`  
-`yarn`  
-
-## Build
-`yarn build`  
-
-## Test
-`yarn test:e2e`  
-`yarn test:workflow`  
+- Setup node.js version - `nvm install && nvm use`
+- Install dependencies - `yarn`
+- Build - `yarn build`
+- Test #1 - `yarn test:e2e`  
+- Test #2 - `yarn test:workflow`  

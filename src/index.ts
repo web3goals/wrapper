@@ -1,17 +1,9 @@
+import { JSON } from "@polywrap/wasm-as";
 import {
   Args_getAccountData,
   Args_getAccountGoals,
-  Args_sampleMethod,
-  SampleResult,
   Subgraph_Module,
 } from "./wrap";
-import { JSON } from "@polywrap/wasm-as";
-
-export function sampleMethod(args: Args_sampleMethod): SampleResult {
-  return {
-    result: args.arg,
-  };
-}
 
 export function getAccountData(args: Args_getAccountData): JSON.Value {
   // Query subgraph

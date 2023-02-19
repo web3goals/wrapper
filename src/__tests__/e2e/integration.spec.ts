@@ -1,6 +1,5 @@
 import { PolywrapClient } from "@polywrap/client-js";
 import path from "path";
-import * as App from "../types/wrap";
 
 jest.setTimeout(60000);
 
@@ -16,18 +15,6 @@ describe("Wrapper End to End Tests", () => {
 
   beforeEach(() => {
     client = new PolywrapClient();
-  });
-
-  it("calls sampleMethod", async () => {
-    const expected: string = "polywrap";
-    const result = await client.invoke<App.Template_SampleResult>({
-      uri: wrapperUri,
-      method: "sampleMethod",
-      args: { arg: expected },
-    });
-    expect(result.ok).toBeTruthy();
-    if (!result.ok) return;
-    expect(result.value.result).toEqual(expected);
   });
 
   it("calls getAccountData", async () => {

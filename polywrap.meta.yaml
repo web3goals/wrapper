@@ -1,7 +1,7 @@
 format: 0.1.0
-displayName: Polywrap Wasm Wrapper Template
-subtext: A template for starting a Polywrap Wasm wrapper
-description: A Polywrap Wasm wrapper.
+displayName: Web3 Goals AssemblyScript Wrapper
+subtext: ...
+description: ...
 tags:
   - polywrap
   - web3

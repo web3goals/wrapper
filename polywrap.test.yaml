@@ -1,4 +1,4 @@
-name: template-wasm-rs
+name: web3goals-wrapper
 format: 0.1.0
 validation: "./workflows/validator.cue"
 jobs:

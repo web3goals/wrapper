@@ -1,7 +1,19 @@
+#import { Module } into Subgraph from "ens/graph-node.polywrap.eth"
+
 type Module {
-    sampleMethod(arg: String!): SampleResult!
+  sampleMethod(arg: String!): SampleResult!
+  getAccountData(
+    subgraphAuthor: String!
+    subgraphName: String!
+    account: String!
+  ): JSON!
+  getAccountGoals(
+    subgraphAuthor: String!
+    subgraphName: String!
+    account: String!
+  ): JSON!
 }
 
 type SampleResult {
-    result: String!
+  result: String!
 }

@@ -2,7 +2,11 @@
 
 ## Wrapper address
 
-wrap://ipfs/QmTZW8p41F5GPfueFv6brFDEiU7uf21oBKvuZ4LukHfPvc
+- wrap://ipfs/QmTZW8p41F5GPfueFv6brFDEiU7uf21oBKvuZ4LukHfPvc
+
+## Demo application with integrated wrapper
+
+- https://github.com/web3goals/wrapper-demo-app
 
 ## Commands
 
